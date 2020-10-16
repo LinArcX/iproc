@@ -11,9 +11,11 @@ RELEASE = ./release
 all: release
 
 debug: ../core/iproc.c linux.c
+	mkdir -p $@
 	$(CC) $(CFLAGS) $(LIBS) -o $(DEBUG)/$(NAME) $^ -g
 
 release: ../core/iproc.c linux.c
+	mkdir -p $@
 	$(CC) $(CFLAGS) $(LIBS) -o $(RELEASE)/$(NAME) $^
 
 clean:

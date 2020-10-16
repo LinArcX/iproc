@@ -5,6 +5,34 @@
 # iproc
 A utility that help you gather information(cpu_usage, memory_usage, ...)from a particular process.
 
+# Usage
+You'll see something like this:
+```
+↳ iproc -p 25933 -r 4
+[2]
+        Mem: 8524 Kb
+        Cpu: 0.1%
+[4]
+        Mem: 1524 Kb
+        Cpu: 1.4%
+[6]
+        Mem: 4523 Kb
+        Cpu: 0.0%
+[8]
+        Mem: 4220 Kb
+        Cpu: 2.3%
+
+```
+
+
+To see full range of options, use `-h`:
+```
+Options:
+        -p,--process-id  Specify the process-id to watch
+        -i,--interval   Specify interval
+        -h,--help       Show this help message
+```
+
 # Build
 ## Linux
 First make sure you have these tools on your machine:
@@ -13,27 +41,6 @@ First make sure you have these tools on your machine:
 
 Then:
 `cd linux; make; ./release/iproc -p <PID>`
-
-You'll see something like this:
-```
-./iproc.exe -p 780 -i 5
-[5] Mem: 9600 Kb
-[10] Mem: 9600 Kb
-[15] Mem: 9600 Kb
-[20] Mem: 9600 Kb
-.
-.
-.
-```
-
-To see full range of options, use `-h`:
-```
-Options:
-        -p,--processID  Specify the processID to watch
-        -i,--interval   Specify interval
-        -h,--help       Show this help message
-```
-
 
 ## Windows
 TODO

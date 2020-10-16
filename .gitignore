@@ -1,0 +1,27 @@
+# Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+garbages/*
+
+linux/debug/*
+linux/release/*
+
+windows/visual_studio/*.suo
+windows/visual_studio/*.user
+windows/visual_studio/*.rsuser
+windows/visual_studio/*.userosscache
+windows/visual_studio/*.sln.docstates
+windows/visual_studio/.vs/*
+windows/visual_studio/Debug/*
+windows/visual_studio/Release/*
+
+windows/visual_studio/x64/
+windows/visual_studio/x86/
+windows/visual_studio/bld/
+windows/visual_studio/[Bb]in/
+windows/visual_studio/[Oo]bj/
+windows/visual_studio/[Ll]og/
+windows/visual_studio/[Dd]ebug/
+windows/visual_studio/[Dd]ebugPublic/
+windows/visual_studio/[Rr]elease/
+windows/visual_studio/[Rr]eleases/
+windows/visual_studio/[Aa][Rr][Mm]/
+windows/visual_studio/[Aa][Rr][Mm]64/

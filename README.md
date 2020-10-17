@@ -3,7 +3,7 @@
 </h4>
 
 # iproc
-A utility that help you gather information(cpu_usage, memory_usage, ...)from a particular process.
+A utility that help you gather information (*cpu_usage*, *memory_usage*, ...) from a particular process.
 
 # Usage
 You'll see something like this:
@@ -53,17 +53,17 @@ You have three options:
 
   2.3. Change to __.\iproc\windows__ direcotry.
 
-    2.4. `cl.exe ..\core\iproc.c .\windows.c`
+  2.4. `cl.exe ..\core\iproc.c .\windows.c`
 
-    Tip: If you don't have visual-studio command prompt or prefer to stay in your current pwsh, you can prepare `cl.exe` via this command:
+  Tip: If you don't have visual-studio command prompt or prefer to stay in your current pwsh, you can prepare `cl.exe` via this command:
 
-    `Invoke-CmdScript "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvars64.bat"`
+  `Invoke-CmdScript "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvars64.bat"`
 
 3. Or you can use __mingw__(that contains **gcc**), or __clang__ or any other c-compiler that you prefer.
 
 # Todo
-- [] Cpu usage in linux isn't correct.
-- [] Memory usage in windows isn't correct.
+- [ ] Cpu usage in linux isn't correct.
+- [ ] Memory usage in windows isn't correct.
 
 ## License
 ![License](https://img.shields.io/github/license/LinArcX/iproc.svg)

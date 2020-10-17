@@ -25,3 +25,7 @@ windows/visual_studio/[Rr]elease/
 windows/visual_studio/[Rr]eleases/
 windows/visual_studio/[Aa][Rr][Mm]/
 windows/visual_studio/[Aa][Rr][Mm]64/
+
+windows/iproc.exe
+windows/iproc.obj
+windows/windows.obj

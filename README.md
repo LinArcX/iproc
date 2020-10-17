@@ -48,13 +48,18 @@ Then:
 You have three options:
 1. Open solution file that resides here: `.\windows\visual_studio\iproc.sln` and build the project through IDE.
 2. Build from command-line via `cl.exe`.
-    2.1. Open visual studio command prompt.
-    2.3. Change to __.\iproc\windows__ direcotry.
+
+  2.1. Open visual studio command prompt.
+
+  2.3. Change to __.\iproc\windows__ direcotry.
+
     2.4. `cl.exe ..\core\iproc.c .\windows.c`
 
     Tip: If you don't have visual-studio command prompt or prefer to stay in your current pwsh, you can prepare `cl.exe` via this command:
+
     `Invoke-CmdScript "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Auxiliary\Build\vcvars64.bat"`
-3. Or you can use __mingw__(that contains **gcc__), or __clang__ or any other c-compiler that you prefer.
+
+3. Or you can use __mingw__(that contains **gcc**), or __clang__ or any other c-compiler that you prefer.
 
 # Todo
 - [] Cpu usage in linux isn't correct.
